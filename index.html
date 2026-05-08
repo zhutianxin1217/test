@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ottawa Smart Course Selector</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background-color: #f4f4f9; }
+        .course-card { background: white; border: 1px solid #ddd; padding: 15px; margin-bottom: 10px; border-radius: 8px; }
+        .full { color: red; font-weight: bold; }
+        .available { color: green; font-weight: bold; }
+        button { background-color: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
+        button:disabled { background-color: #ccc; }
+    </style>
+</head>
+<body>
+    <h1>🎓 Ottawa High School Course Registration</h1>
+    <p>Select your courses for the upcoming semester.</p>
+
+    <div class="course-card">
+        <h3>ENG4U-AP: English Grade 12 (AP)</h3>
+        <p>Teacher: Mr. Smith | Time: Period 1</p>
+        <p class="available">Slots Left: 5</p>
+        <button>Register Now</button>
+    </div>
+
+    <div class="course-card">
+        <h3>SBI4U-AP: Biology Grade 12 (AP)</h3>
+        <p>Teacher: Dr. Miller | Time: Period 3</p>
+        <p class="full">FULL (Waiting List Only)</p>
+        <button disabled>Full</button>
+    </div>
+
+    <script>
+        console.log("Course data loaded from courses.json...");
+    </script>
+</body>
+</html>
