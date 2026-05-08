@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ENG4U-AP",
+    "courseName": "English Grade 12 (AP)",
+    "teacher": "Mr. Smith",
+    "credits": 1.0,
+    "availableSlots": 5,
+    "time": "Period 1"
+  },
+  {
+    "id": "MHF4U",
+    "courseName": "Advanced Functions",
+    "teacher": "Ms. Wong",
+    "credits": 1.0,
+    "availableSlots": 12,
+    "time": "Period 2"
+  },
+  {
+    "id": "SBI4U-AP",
+    "courseName": "Biology Grade 12 (AP)",
+    "teacher": "Dr. Miller",
+    "credits": 1.0,
+    "availableSlots": 0,
+    "time": "Period 3"
+  },
+  {
+    "id": "AVI3M",
+    "courseName": "Visual Arts Grade 11",
+    "teacher": "Mrs. Garcia",
+    "credits": 1.0,
+    "availableSlots": 20,
+    "time": "Period 4"
+  }
+]
